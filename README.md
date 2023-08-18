@@ -20,10 +20,10 @@ g++ -o server simple_server.cpp http_server.cpp -lpthread <br>
 ./server  &lt;port&gt; <br>
 **Accessing Server**: Open a web browser and navigate to http://localhost:&lt;port&gt;. Replace &lt;port&gt; with the port number you specified when running the server. <br>
 
-**Testing**: You can test the server by accessing different URLs and observing the responses. You can also use command-line tools like wget to interact with the server.
+**Testing**: You can test the server by accessing different URLs and observing the responses. <br>You can also use command-line tools like wget to interact with the server.
 
 # Configuration
-Modify the SIZE_THREAD_POOL constant in simple_server.cpp to adjust the number of worker threads in the pool.
+Modify the SIZE_THREAD_POOL constant in simple_server.cpp to adjust the number of worker threads in the pool. <br>
 Configure the paths to HTML files and dynamic response logic in the provided code (http_server.cpp).
 
 # Acknowledgments
