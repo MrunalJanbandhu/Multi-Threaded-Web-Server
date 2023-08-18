@@ -17,8 +17,8 @@ The worker thread pool design involves creating a pool of reusable worker thread
 g++ -o server simple_server.cpp http_server.cpp -lpthread <br>
 **Execution**: Run the server, providing a port number as an argument. <br>
 
-./server \<port\> <br>
-**Accessing Server**: Open a web browser and navigate to http://localhost:\<port\>. Replace \<port\> with the port number you specified when running the server. <br>
+./server  &lt;port&gt; <br>
+**Accessing Server**: Open a web browser and navigate to http://localhost:&lt;port&gt;. Replace &lt;port&gt; with the port number you specified when running the server. <br>
 
 **Testing**: You can test the server by accessing different URLs and observing the responses. You can also use command-line tools like wget to interact with the server.
 
